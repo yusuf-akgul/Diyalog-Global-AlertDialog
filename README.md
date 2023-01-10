@@ -3,16 +3,9 @@
 Açık kaynak kodlu kotlin class.
 Projenin tamamında kullanılabilecek global bir AlertDialog nesnesi
 Uygulama kotlin dili ile yazılmıştır, en düşük android SDK=23 ver.=6 dır.
-henüz library haline getirilmemiştit.
-Buradaki;
-alertdlg_norm.xml,
-btnpress_dlgdg,
-btnpress_dlgno,
-btnpress_dlgok
-dosyalarını res/drawable klasörüne kopyalayınız.
-colors.xml ve styles.xml dosyalarını da res/values klasörüne kopyalayınız.
+henüz library haline getirilmemiştir.
 
-Kullanımıaşağıdaki gibi çok basittir.
+Kullanımı aşağıdaki gibidir.
 setResult fonksiyonu ile geri dönüşler string olarak alınır.
 geri dönüş değerleri: Butonlar için "OK", "NO" 
 ve adapter kullanılmışsa  adapter sıra numaralarıdır. ("1","2" gibi.) 
