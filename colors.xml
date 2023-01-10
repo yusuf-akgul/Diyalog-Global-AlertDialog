@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rnk_siyah">#000000</color>
+    <color name="rnk_beyaz">#ffffff</color>
+
+    <color name="grey_100">#ffcfd8dc</color>
+    <color name="grey_200">#ffb0bec5</color>
+
+    <color name="red_100">#fff4c7c3</color>
+    <color name="red_200">#ffef9a9a</color>
+    <color name="red_300">#ffe67c73</color>
+    <color name="red_400">#ffef5350</color>
+
+    <color name="blue_100">#ffbbdefb</color>
+    <color name="blue_300">#ff64b5f6</color>
+    <color name="blue_500">#ff2196f3</color>
+</resources>

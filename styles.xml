@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myDlgThemeNorm" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/alertdlg_norm</item>
+        <item name="android:textViewStyle">@style/AlertDlgText</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DlgButNorm_P</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DlgButNorm_N</item>
+        <item name="buttonBarNeutralButtonStyle">@style/DlgButNorm_D</item>
+        <item name="buttonBarStyle">@style/DlgButtonBar</item>
+    </style>
+
+    <style name="AlertDlgText">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="DlgButNorm_P">
+        <item name="android:background">@drawable/btnpress_dlgok</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/rnk_siyah</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">@null</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DlgButNorm_N">
+        <item name="android:background">@drawable/btnpress_dlgno</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/rnk_siyah</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">@null</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DlgButNorm_D">
+        <item name="android:background">@drawable/btnpress_dlgdg</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/rnk_siyah</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">@null</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DlgButtonBar">
+        <item name="android:background">@color/grey_100</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+</resources>
