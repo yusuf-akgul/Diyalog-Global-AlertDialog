@@ -1,0 +1,17 @@
+Diyalog()
+	.Init(contxt)
+	.setIcon(R.drawable.info48) 
+	.setColor(Diyalog().BEYAZ, Diyalog().MAVI) 
+	.setTitle("Kayıt Silme")
+	.setMessage("Bu kaysı silmek istediğinizden emin misiniz ?")
+	.setAnime(R.style.anime) 
+	.setPozBtn("Sil")
+	.setNegBtn("Vazgeç")
+	.setResult {
+		if (it=="OK"){
+			..............
+		}else{
+			..............
+		}
+	}
+.Show()
