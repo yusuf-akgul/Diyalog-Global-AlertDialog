@@ -6,7 +6,7 @@ Uygulama kotlin dili ile yazılmıştır, en düşük android SDK=23 ver.=6 dır
 henüz library haline getirilmemiştit.
 Buradaki;
 alertdlg_norm.xml,
-btnpress_dlgdl,
+btnpress_dlgdg,
 btnpress_dlgno,
 btnpress_dlgok
 dosyalarını res/drawable klasörüne kopyalayınız.
