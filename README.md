@@ -3,7 +3,7 @@
 Açık kaynak kodlu kotlin class.
 Projenin tamamında kullanılabilecek global bir AlertDialog nesnesi
 Uygulama kotlin dili ile yazılmıştır, en düşük android SDK=23 ver.=6 dır.
-henüz library haline getirilmemiştir.
+Henüz library haline getirilmemiştir.
 
 Kullanımı aşağıdaki gibidir.
 setResult fonksiyonu ile geri dönüşler string olarak alınır.
